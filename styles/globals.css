@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+        @apply bg-zinc-900 h-full overflow-x-hidden font-primary;
+}
+
+#__next {
+        @apply h-full;
+}
+
+html {
+        @apply h-full;
+}
